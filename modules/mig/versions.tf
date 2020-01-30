@@ -14,10 +14,3 @@
  * limitations under the License.
  */
 
-terraform {
-  required_version = "~> 0.12.6"
-  required_providers {
-    google      = "~> 2.7"
-    google-beta = "~> 2.7"
-  }
-}
